@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ASEECEBookServiceModel\ASEECEBookServiceModel.csproj" />
     <ProjectReference Include="..\DALRESTFULUtilCore\DALRESTFULUtilCore.csproj" />
   </ItemGroup>
 
