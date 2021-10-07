@@ -12,7 +12,7 @@ namespace RestClientBookServiceCore
     {
         public void RunTestJSON()
         {
-            BookServiceUtilJSON bookservice = new BookServiceUtilJSON("bookserviceaseece.azurewebsites.net", "", "api");
+            BookServiceUtilJSON bookservice = new BookServiceUtilJSON("localhost", "44312", "api");
             //Test metoder til de to førset servicemetoder
             //List<Book> bøger = bookservice.getSimpleBooks();
             //Book bog = bøger[3];
